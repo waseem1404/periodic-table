@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-bottom: -72px;
+        }
+      #container{
+          height:700px;
+          width:92%;
+          
+          margin:auto;
+          display:flex;
+      }
+      #type1{
+     
+        margin-top:100px;
+        height:73%;
+        width:17%;
+        display:flex;
+        margin: auto;
+      }
+      #type2{
+        
+        margin-top:343px;
+        height:42.0%;
+        width:50%;
+        margin-left: -150px;
+        display: flex;
+        flex-direction: column;
+
+      }
+      #type3{
+        
+        margin-top:118px;
+        height:77%;
+        width:33%;
+        
+
+      }
+      #si{
+        height:150px;
+        width:150px;
+        border: 1px solid black;
+        align-self: center;
+        margin-top: -200px;
+        background-color: #89a02c;
+        font-size: 30px;
+       
+      }
+      #hal{
+            
+            height: 99%;
+            width:32%;
+            margin:3px;
+            display: flex;
+            flex-direction: column;
+            margin-top:37px ;
+      }
+      #pnk{
+         
+           
+           height:99%;
+            width:31%;
+            margin:3px;
+            display: flex;
+            flex-direction: column;
+            margin-top:37px ;
+      }
+      #blk{
+    
+        height:99%;
+            width:30%;
+            margin:3px;
+            display: flex;
+            flex-direction: column;
+            margin-top:37px ;
+            
+            
+      }
+      #hal>div{
+        height: 13.5%;
+        width:100%;
+        border: 1px solid black;
+       display:flex;
+       margin:auto;
+       flex-direction:column;
+       background-color:#89a02c ;
+       margin-bottom: 6px;
+      
+       
+      }
+      #pnk>div{
+        height: 13.5%;
+        width:100%;
+        border: 1px solid black;
+       display:flex;
+       margin:auto;
+       flex-direction:column;
+       background-color:#ff5555;
+       margin-bottom: 6px;
+       
+      }
+      #pnk>#empty{
+        background-color: white;
+        border: none;
+      }
+      #blk>div{
+        height: 12.4%;
+        width:90%;
+       display:flex;
+       margin:auto;
+       flex-direction:column;
+       background-color:#ffffff;
+       margin-bottom: 6px;
+       margin-right: 6px;
+       
+      }
+      #blk>.lpk {
+        background-color: #eb9898;
+        border: 4px solid black;
+      }
+      #type2>div{
+        height: 25%;
+        width: 100%;
+        display:flex;
+        
+        flex-direction: row;
+        margin-bottom: 4px;
+      }
+      #type2>div>div{
+        height: 100%;
+        width: 100px;
+        border: 1px solid rgb(0, 0, 0);
+        flex-direction: row;
+        margin: 1px;
+        background-color: blue;
+        margin-right: 2px;
+        
+        margin-top: 0px;
+        margin-bottom: 1px;
+      }
+      #type3>div{
+        height: 13.4%;
+        width: 99%;
+        display:flex;
+        flex-direction: row;
+        margin: auto;
+        padding: 1px;
+
+      }
+      #type3>div>div{
+         height: 67%;
+        width: 15%;
+        flex-direction: row;
+        margin: auto;
+        background-color: rgb(126, 126, 130);
+        padding: 10px;
+        margin-right: 4px;
+        border: 1px solid black;
+      }
+
+   #gray>.gr{
+    background-color:#6d535e ;
+
+   }
+   #or>.orange{
+    background-color: #e9830e;
+   }
+   #or>.pink{
+    background-color: #ff5555;
+   }
+   #or>.purple{
+    background-color: purple;
+   }
+   #or>.yellow{
+    background-color: #e9d00e;
+   }
+
+   #or1>.orange{
+    background-color: #e9830e;
+   }
+   #or1>.pink{
+    background-color: #ff5555;
+   }
+   #or1>.purple{
+    background-color: purple;
+   }
+   #or1>.yellow{
+    background-color: #e9d00e;
+   }
+
+   #or2>.orange{
+    background-color: #e9830e;
+   }
+   #or2>.pink{
+    background-color: #ff5555;
+   }
+   #or2>.purple{
+    background-color: purple;
+   }
+   #or2>.yellow{
+    background-color: #e9d00e;
+   }
+   #or2>.green{
+    background-color: green;
+   }
+
+   #or3>.orange{
+    background-color: #e9830e;
+   }
+   #or3>.pink{
+    background-color: #ff5555;
+   }
+   #or3>.purple{
+    background-color: purple;
+   }
+   #or3>.yellow{
+    background-color: #e9d00e;
+   }
+   #or3>.green{
+    background-color: green;
+   }
+
+   #or4>.orange{
+    background-color: #e9830e;
+   }
+   #or4>.pink{
+    background-color: #ff5555;
+   }
+   #or4>.purple{
+    background-color: purple;
+   }
+   #or4>.yellow{
+    background-color: #e9d00e;
+   }
+   #or4>.green{
+    background-color: green;
+   }
+
+   #or5>.orange{
+    background-color: #e9830e;
+   }
+   #or5>.pink{
+    background-color: #ff5555;
+   }
+   #or5>.purple{
+    background-color: purple;
+   }
+   #or5>.yellow{
+    background-color: #e9d00e;
+   }
+   #or5>.green{
+    background-color: green;
+   }
+   #or5>.white{
+    background-color: white;
+    border: none;
+   }
+
+   #hal>.hdr{
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   }
+   #si>.l{
+
+    margin:5px -10px ;
+    height: 20%;
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+   }
+   #si>.rt{
+    
+    margin:25px 10px ;
+    height: 47%;
+    width: 100%;
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+   }
+   #si>.rt1{
+    
+    margin:-40px 10px ;
+    height: 47%;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    
+   }
+   #pnk>.n{
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+   }
+
+   #lower1{
+    height: 35px;
+    width: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    
+   }
+   #lower1>div{
+    border: 1px solid black;
+    height:98%;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #47582e;
+    align-items: center;
+      
+   }
+   #lower2{
+    height: 35px;
+    width: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    
+   }
+   #lower2>div{
+    border: 1px solid black;
+    height:98%;
+    width: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#95bc5f ;
+      
+   }
+  #lower1>div:nth-child(1){
+    color:white;
+    text-align:center;
+
+    
+   }
+   #lower2>div:nth-child(7){
+    text-align:center;
+    
+   }
+   #lower2>div:nth-child(14){
+    text-align:center
+    
+
+    
+   }
+
+    </style>
+</head>
+<body>
+    <h1>THE PERIODIC TABLE OF ELEMENTS</h1>
+    <div id="container">
+        <div id="type1">
+            <div id="hal">
+                <div class="hdr"> H</div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div id="pnk">
+                <div id="empty"></div>
+                <div class="n">4</div>
+                <div class="n">12</div>
+                <div class="n">20</div>
+                <div class="n">38</div>
+                <div class="n">56</div>
+                <div class="n">88</div>
+            </div>
+            <div id="blk">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="lpk"></div>
+                <div class="lpk"></div>
+            </div>
+            
+        </div>
+
+        <div id="si">
+            <div class="l">14</div>
+            <div class="rt">Si</div>
+            <div class="rt1">Silicon</div>
+        </div>
+
+        <div id="type2">
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+           
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+          
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+        </div>
+        
+        <div id="type3">
+            <div id="or5">
+                <div class="white"></div>
+                <div class="white"></div>
+                <div class="white"></div>
+                <div class="white"></div>
+                <div class="white"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="or4">
+                <div class="purple"></div>
+                <div class="green" ></div>
+                <div  class="green"></div>
+                <div  class="green"></div>
+                <div  class="pink"></div>
+                <div  class="yellow"></div>
+            </div>
+            
+            <div id="or3">
+                <div class="orange"></div>
+                <div class="purple"></div>
+                <div class="green"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="or2">
+                <div class="orange"></div>
+                <div class="purple"></div>
+                <div class="purple"></div>
+                <div class="green"></div>
+                <div class="pink"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="or1">
+                <div class="orange"></div>
+                <div class="orange"></div>
+                <div class="purple"></div>
+                <div class="purple"></div>
+                <div class="pink"></div>
+                <div class="yellow"></div>
+            </div>
+            
+            <div id="or">
+                <div class="orange"></div>
+                <div class="orange"></div>
+                <div class="orange"></div>
+                <div class="purple"></div>
+                <div class="pink"></div>
+                <div class="yellow"></div>
+            </div>
+
+            <div id="gray">
+                <div class="gr"></div>
+                <div class="gr"></div>
+                <div class="gr"></div>
+                <div class="gr"></div>
+                <div class="gr"></div>
+                <div class="gr"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="lower1">
+        <div>La</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="lower2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>Am</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div>No</div>
+    </div>
+</body>
+</html>
